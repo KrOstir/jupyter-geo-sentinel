@@ -10,7 +10,7 @@ Jupyter notebook with support for geospatial analyses. Everything that gives [Ju
 The following command starts a container with the Notebook server listening for HTTP connections on port 8888 with a randomly generated authentication token configured. The current folder is mapped to the server.
 
 ```bash
-docker run -it --rm -p 8888:8888 -v $PWD:/home/jovyan krostir/jupyter-geo-sentinel
+docker run -it --rm -p 8888:8888 -v $PWD/:/home/jovyan krostir/jupyter-geo-sentinel
 ```
 
 One can optionally provide the [Copernicus Open Access Hub] <https://scihub.copernicus.eu/> username and password.
