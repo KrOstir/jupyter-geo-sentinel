@@ -3,6 +3,7 @@
 Jupyter notebook with support for geospatial analyses. Everything that gives [Jupyter Notebook Scientific Python Stack](https://github.com/jupyter/docker-stacks/tree/master/scipy-notebook) and more:
 
 * [GDAL](http://www.gdal.org/)
+* [rasterio](https://mapbox.github.io/rasterio/)
 * [Sentinelsat](https://github.com/sentinelsat/sentinelsat)
 
 ## Basic Use
@@ -13,7 +14,7 @@ The following command starts a container with the Notebook server listening for 
 docker run -it --rm -p 8888:8888 -v $PWD/:/home/jovyan krostir/jupyter-geo-sentinel
 ```
 
-One can optionally provide the [Copernicus Open Access Hub] <https://scihub.copernicus.eu/> username and password.
+One can optionally provide the [Copernicus Open Access Hub](https://scihub.copernicus.eu/) username and password.
 
 ```bash
 docker run -it --rm -p 8888:8888 -v $PWD/:/home/jovyan  -e SentinelHub_UN='[SentinelHub user name]' -e SentinelHub_PASS='[SentinelHub password]' krostir/jupyter-geo-sentinel
