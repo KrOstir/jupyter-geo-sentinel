@@ -1,4 +1,4 @@
-# Jupyter Notebook for Copernicus Sentinel Analysis
+# Jupyter Notebook Copernicus Sentinel Data Analysis
 
 Jupyter notebook with support for geospatial analyses. Everything that gives [Jupyter Notebook Scientific Python Stack](https://github.com/jupyter/docker-stacks/tree/master/scipy-notebook) and more:
 
